@@ -1,5 +1,30 @@
 {
   "dependencies": {
     "swiper": "^11.1.15"
-  }
+  },
+  "name": "project-1",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timurkhakimov012/project--1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timurkhakimov012/project--1/issues"
+  },
+  "homepage": "https://github.com/timurkhakimov012/project--1#readme",
+  "description": ""
 }
