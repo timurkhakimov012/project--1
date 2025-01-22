@@ -8,8 +8,6 @@ window.onload = function () {
       disableOnInteraction: false,
     },
   });
-
-//   swiper.onload();
 };
 
 // const swiperWrapper = document.querySelector(".swiper-wrapper"),
