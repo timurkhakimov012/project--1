@@ -94,20 +94,28 @@ img {
 .button__heart {
     display: flex;
     position: absolute;
-    margin: 720px 0 162px 386px;
+    left: 50%;
+    bottom: 260px;
+    margin-left: 150px;
     z-index: 2;
     width: 97px;
     height: 97px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 100px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
+
 .button__heart:hover {
     background-color: rgba(255, 255, 255);
 }
-.btn__heart-img {
-    padding: 26px 19px 18px 20px;
-}
 
+.btn__heart-img {
+    width: 60px;
+    height: 58px;
+    padding-top: 4px;
+}
 
 .sophine {
     position: absolute; 
@@ -261,3 +269,41 @@ img{
 .hot.hidden {
     display: none;
 }
+
+.overlay-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.girl-container {
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container img {
+    position: relative;
+    z-index: 1;
+}
+
+.winked {
+    position: fixed; 
+    top: -100px; 
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: top 0.7s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.winked.show {
+    top: 10px; 
+    opacity: 1;
+}
+
